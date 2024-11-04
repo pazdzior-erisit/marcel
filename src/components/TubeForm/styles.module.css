@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-black);
+  align-items: center;
+  row-gap: 10px;
+  padding: 40px;
+}
+
+.input {
+  border: 1px solid var(--color-black);
+}
+
+.button {
+  background-color: var(--color-gray);
+  color: var(--color-white);
+  padding-left: 10px;
+  padding-right: 10px;
+}
